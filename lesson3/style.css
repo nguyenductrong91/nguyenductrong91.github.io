@@ -1,0 +1,45 @@
+body {
+  background-image: url("https://i.pinimg.com/originals/2c/84/5a/2c845a66b8ad2a8aafd288bdc16cd459.jpg");
+  background-position: 50% 0;
+}
+h1 {
+  background-color: lightblue;
+  border-style: dashed;
+}
+h3 {
+  color: brown;
+}
+p {
+  color: white;
+}
+
+a:link {
+  color: rgb(73, 73, 22);
+}
+a:visited {
+  color: red;
+}
+a:hover {
+  color: hotpink;
+}
+a:active {
+  color: blue;
+}
+ul {
+  list-style-type: circle;
+}
+.cover-image {
+  background-color: rgb(241, 217, 76);
+}
+.heading {
+  font-size: 40;
+}
+.menu-list {
+  background-color: rgb(47, 224, 255);
+}
+.journalist-name {
+  text-align: right;
+}
+.illustration-image {
+  opacity: 0.7;
+}
