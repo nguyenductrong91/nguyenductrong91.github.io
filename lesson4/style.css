@@ -1,0 +1,12 @@
+header {
+  background-color: rgb(5, 2, 32);
+  height: 60px;
+}
+.box {
+  background-color: rgb(2, 2, 34);
+  color: white;
+  vertical-align: baseline;
+  height: 60px;
+  width: 100px;
+  border-color: white;
+}
