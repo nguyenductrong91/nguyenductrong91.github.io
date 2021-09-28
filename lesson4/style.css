@@ -1,12 +1,163 @@
+/* header*/
 header {
-  background-color: rgb(5, 2, 32);
-  height: 60px;
-}
-.box {
-  background-color: rgb(2, 2, 34);
+  background-color: #0f1111;
+
   color: white;
-  vertical-align: baseline;
-  height: 60px;
-  width: 100px;
-  border-color: white;
+
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-box {
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+.amazon-logo {
+  max-width: 100px;
+  max-height: 80px;
+}
+.search {
+  background-color: white;
+  color: black;
+  width: 70%;
+}
+.search-logo {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-left: 0;
+}
+aside {
+  width: 10%;
+  padding-left: 0px;
+  margin-left: 0;
+  float: left;
+  background-color: rgb(240, 177, 6);
+  display: block;
+}
+/* het phan header*/
+
+/* nav*/
+nav {
+  background-color: #0f1111;
+  height: 40px;
+  color: white;
+}
+
+.nav-box {
+  display: inline-block;
+  margin: 10px;
+}
+/* het phan navigation */
+
+/* main */
+main {
+  width: 1500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.section1 {
+  overflow-y: scroll;
+  height: 400px;
+}
+
+.slider-image {
+  width: 1500px;
+  height: 600px;
+  margin: 0;
+  white-space: -1px;
+}
+.hightech {
+  display: inline-block;
+  margin-top: 30px;
+}
+.section2 {
+  overflow-x: scroll;
+  height: 200px;
+  margin-top: 30px;
+}
+.topbeauty-personalcare {
+  display: inline-block;
+}
+.homepage2:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.homepage2:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.homepage2:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.homepage2:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.back-home-page-box {
+  display: block;
+  height: fit-content;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: white;
+  display: block;
+}
+
+.homepage:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.homepage:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.homepage:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.homepage:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+footer {
+  background-color: #0f1111;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 50px;
+}
+.footer1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  vertical-align: text-top;
+}
+.footerdata {
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 20px;
+  vertical-align: text-top;
+  width: max-content;
 }
