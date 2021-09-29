@@ -202,16 +202,22 @@ main {
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
-}
 
-.hot-items {
+  
+}
+.main-content-box {
+  display: flex;
+  flex-direction: column;
   color: #00b214;
   font-size: 25.6px;
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
   align-items: center;
+  padding-top: 20px;
+
 }
+
+
+
 .fa-pagelines {
   transform: rotate(60deg);
   color: #335c38;
