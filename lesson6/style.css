@@ -1,0 +1,81 @@
+.header-cover {
+  background-color: black;
+  color: white;
+  height: 35px;
+  margin-bottom: 20px;
+}
+p {
+  text-align: center;
+}
+nav {
+  margin-top: 30px;
+}
+body {
+  font-family: sans-serif;
+}
+.text-center {
+  text-align: center;
+}
+.footer-1 {
+  margin-top: 30px;
+  background-color: #414c5c;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+.footer-2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.how-much {
+  color: red;
+}
+.far {
+  margin-right: 10px;
+}
+input {
+  border-color: rgba(0, 0, 0, 0.308);
+  height: 40px;
+  width: 90%;
+}
+button {
+  height: 40px;
+  width: 40px;
+  background-color: #414c5c;
+  border: 10px solid #414c5c;
+}
+.fa-search {
+  color: white;
+}
+.menu {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.body {
+  background-color: rgba(15, 15, 15, 0.041);
+}
+header {
+  background-color: white;
+  border-bottom: black;
+}
+footer {
+  background-color: white;
+}
+.sider {
+  background-color: white;
+}
+
+.padding-0 {
+  padding: 0px;
+}
+.img1 {
+  height: 90px;
+  width: 90x;
+}
+aside {
+  margin-top: 30px;
+}
