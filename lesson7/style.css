@@ -1,0 +1,104 @@
+.title {
+  background-color: red;
+  color: white;
+  height: 50px;
+}
+.note {
+  color: red;
+}
+.form {
+  background-color: rgba(0, 0, 0, 0.089);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.invalid-feedback {
+  display: none;
+}
+input:invalid + .invalid-feedback {
+  display: block;
+}
+input:invalid {
+  border-color: red;
+}
+.invalid-noti {
+  color: red;
+}
+.margin-bot {
+  margin-bottom: 30px;
+}
+.padding-top {
+  padding-top: 30px;
+}
+.send-button {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: rgb(55, 156, 214);
+  border-radius: 50px;
+
+  font-weight: bolder;
+  color: white;
+  font-size: 25px;
+}
+.radio  {
+  margin-right: 10px;
+}
+.birth-day {
+  margin-right: 10px;
+}
+.logo-sns {
+  width: 40px;
+  height: 40px;
+}
+.bg-black {
+  background-color: rgba(0, 0, 0, 0.171);
+}
+input:focus {
+  border: 3px solid rgb(49, 203, 241);
+  box-shadow: 0px 0px 3px rgb(49, 203, 241)
+ }
+ input {
+   outline: none;
+ }
+ .button-1 {
+   background-color: rgb(49, 203, 241);
+   padding: 10px 10px 10px 10px;
+   border-radius: 50px;
+   color: white;
+   
+ }
+
+table, tr, th, td {
+  border: 1px solid rgba(153, 153, 153, 0.397);
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: max-content;
+  
+}
+th, td {
+  padding: 10px;
+}
+tbody tr:nth-child(2n + 1) {
+  background-color: rgba(153, 153, 153, 0.397);
+}
+.th-name {
+  text-align: left;
+}
+.margin-top {
+  margin-top: 30px;
+}
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color:hotpink;
+}
+a:active {
+  color:green;
+}
+a:visited {
+  color: white;
+}
+               
