@@ -68,19 +68,25 @@ input:focus {
    color: white;
    
  }
+ thead {
+   background-color: rgba(82, 135, 250, 0.986);
+ }
 
 table, tr, th, td {
-  border: 1px solid rgba(153, 153, 153, 0.397);
+  border: 1px solid rgba(90, 132, 223, 0.986);
   border-collapse: collapse;
   table-layout: fixed;
   width: max-content;
   
 }
+.table-title {
+  color: rgb(9, 9, 124);
+}
 th, td {
   padding: 10px;
 }
-tbody tr:nth-child(2n + 1) {
-  background-color: rgba(153, 153, 153, 0.397);
+tbody tr:nth-child(2n) {
+  background-color: rgba(90, 132, 224, 0.986);
 }
 .th-name {
   text-align: left;
@@ -101,4 +107,12 @@ a:active {
 a:visited {
   color: white;
 }
-               
+.sign-in-btn {
+  background-color: cornflowerblue;
+  padding: 20px;
+  border-radius: 25px;
+}  
+.margin-30 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
