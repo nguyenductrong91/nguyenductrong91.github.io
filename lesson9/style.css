@@ -1,0 +1,16 @@
+header {
+    background-color: blue;
+}
+nav {
+    background-color: cadetblue;
+}
+.sub-menu {
+    display: none;
+}
+
+
+
+.menu-items:hover .sub-menu {
+    display: block;
+
+}
